@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PM2APP01.MenuPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Menu de Paginas" FontSize="Title" Padding="30,50,30,10" TextColor="Black"/>
+            <Label Text="Navegacion entre paginas" FontSize="16" Padding="30,0,30,50" TextColor="Black"/>
+            
+            <Button Text="Operaciones" x:Name="btnoperaciones" Clicked="btnoperaciones_Clicked" Margin="0,0,0,10"  HorizontalOptions="Center" Background="Pink" TextColor="Black" WidthRequest="200"></Button>
+            <Button Text="Datos" x:Name="btndatos" Clicked="btndatos_Clicked" Margin="0,0,0,10" HorizontalOptions="Center" Background="Pink" TextColor="Black" WidthRequest="200"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

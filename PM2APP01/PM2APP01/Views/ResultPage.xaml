@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PM2APP01.Views.ResultPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Resultado del envio" FontSize="Title" Padding="30,50,30,10"/>
+
+            <Label Text="{Binding nombre}" HorizontalOptions="FillAndExpand" Margin="50,50,0,0" FontSize="15" TextColor="Black"/>
+            <Label Text="{Binding apellido}" HorizontalOptions="FillAndExpand" Margin="50,0,0,0" FontSize="15" TextColor="Black"/>
+            <Label Text="{Binding edad}" HorizontalOptions="FillAndExpand" Margin="50,0,0,0" FontSize="15" TextColor="Black"/>
+            <Label Text="{Binding correo}" HorizontalOptions="FillAndExpand" Margin="50,0,0,0" FontSize="15" TextColor="Black"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

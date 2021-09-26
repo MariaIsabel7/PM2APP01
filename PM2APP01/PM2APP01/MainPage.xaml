@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PM2APP01.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="#2196F3" Padding="0" CornerRadius="0">
+            <Label Text="Mi primer ejercicio con Xamari" HorizontalTextAlignment="Center" Padding="0,0,0,30" TextColor="White" FontSize="36"/>
+        </Frame>
+        <Label Text="Ejercicio 1.1" FontSize="Title" Padding="30,10,30,10"/>
+        <Label Text="Operaciones Basicas" FontSize="16" Padding="30,0,30,0"/>
+
+        <Entry x:Name="txtnum1" Placeholder="Ingrese el primer numero" Keyboard="Numeric" Margin="30,10,30,30"/>
+        <Entry x:Name="txtnum2" Placeholder="Ingrese el segundo numero" Keyboard="Numeric" Margin="30,0,30,30"/>
+
+        <Button Text="Sumar" x:Name="btnsuma" Clicked="btnsuma_Clicked" Margin="0,0,0,10"  HorizontalOptions="Center" Background="MediumPurple" TextColor="White" WidthRequest="200" />
+        <Button Text="Restar" x:Name="btnresta" Margin="0,0,0,10" Clicked="btnresta_Clicked" HorizontalOptions="Center" Background="MediumPurple" TextColor="White" WidthRequest="200"/>
+        <Button Text="Multiplicar" x:Name="btnmult" Margin="0,0,0,10" Clicked="btnmult_Clicked" HorizontalOptions="Center" Background="MediumPurple" TextColor="White" WidthRequest="200"/>
+        <Button Text="Dividr" x:Name="btndiv" Margin="0,0,0,10" Clicked="btndiv_Clicked" HorizontalOptions="Center" Background="MediumPurple" TextColor="White" WidthRequest="200"/>
+
+        
+
+    </StackLayout>
+
+</ContentPage>
